@@ -17,7 +17,7 @@
     - resize() : capacity를 2배로 늘리고 기존 데이터를 복사
     - 생성자 : 초기 capacity(2)로 배열 동적 할당
     - 소멸자 : 동적 메모리 해제
-    - push_back() : capacity 초과 시 resize() 호출 후 값 추가
+    - push_back() : capacity 초과z 시 resize() 호출 후 값 추가
 - 컴파일 명령: g++ MyIntVector.cpp -o MyIntVector --std=c++11
 
 #### 예상 출력 결과
